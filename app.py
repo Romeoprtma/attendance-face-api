@@ -50,6 +50,5 @@ def add_jadwal_route():
     return response
 
 if __name__ == "__main__":
-    port = int(os.environ.get('PORT', 5000))  # Gunakan PORT dari environment variable
-    app.run(host='127.0.0.1', port=port, debug=True)
+    app.run( debug=True)
 
